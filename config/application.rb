@@ -52,6 +52,8 @@ module RedmineApp
 
     config.session_store :cookie_store, :key => '_redmine_session'
 
+    config.secret_token = '50e8d4c5ccb51f0eefc1404922319db9d6ee2dc2b7868af52f94982c71f1be321c4e7dd81187876f'
+
     config.assets.initialize_on_precompile = false
 
     if File.exists?(File.join(File.dirname(__FILE__), 'additional_environment.rb'))
