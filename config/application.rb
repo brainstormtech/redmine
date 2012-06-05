@@ -49,8 +49,6 @@ module RedmineApp
     config.assets.version = '1.0'
 
     config.action_mailer.perform_deliveries = false
-    
-    config.action_controller.session = { :key => "_redmine_session", :secret => "brainstormtechnologiessendirianberhad" }
 
     config.session_store :cookie_store, :key => '_redmine_session'
 
