@@ -52,8 +52,6 @@ module RedmineApp
 
     config.session_store :cookie_store, :key => '_redmine_session'
 
-    config.action_controller.session = { :key => "_myapp_session", :secret => "brainstormtechnologiessendirianberhad" }
-    
     config.assets.initialize_on_precompile = false
 
     if File.exists?(File.join(File.dirname(__FILE__), 'additional_environment.rb'))
