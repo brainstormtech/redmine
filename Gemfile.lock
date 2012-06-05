@@ -121,5 +121,5 @@ DEPENDENCIES
   rmagick (>= 2.0.0)
   ruby-openid (~> 2.1.4)
   shoulda (~> 2.11)
-  sqlite3 (= 1.3.5)
+  sqlite3
   yard

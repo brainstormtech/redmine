@@ -31,11 +31,11 @@ end
 # Database gems
 platforms :mri, :mingw do
   group :postgresql do
-    gem "pg", ">= 0.11.0"
+    gem "pg", ">= 0.11.0", :group => :production
   end
 
   group :sqlite do
-    gem "sqlite3", '1.3.5'
+    gem "sqlite3", :group => [:development, :test]
   end
 end
 
